@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>New Brick</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="./img/logo.ico"/>
+    
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link 
+      rel="stylesheet" 
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+      crossorigin="anonymous"
+    >
+
+    <!-- Animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- Font Awesome -->
+    <link 
+      rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" 
+    />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="./css/style.css">
+
+  </head>
+  <body>
+    <!-- header -->
+    <header class="container">
+      <nav class="navbar navbar-expand-lg py-3 navbar-dark">
+          <a class="navbar-brand" href="#">
+              <img src="img/logo 2.png" width= 300px alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#"><b>Trang chủ</b></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#"><b>Về chúng tôi</b></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#"><b>Dịch vụ</b></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#"><b>Liên hệ</b></a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+  </header>
+
+    <!-- Carousel -->
+    <div id="carousel" class="carousel slide" >
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+      </ul>
+    
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="overlay"></div>
+          <div class="carousel-caption">
+            <div class="img_thumb">
+              <img class="img-fluid animate__animated animate__fadeInUp" src="./img/01-3.jpg" alt="">
+            </div>
+            <h5 class="animate__animated animate__fadeInUp animate__delay-1s">Sáng tạo. Đổi mới.</h5>
+            <p class="animate__animated animate__fadeInUp animate__delay-2s">Kiến trúc tạo dựng tương lai.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overlay"></div>
+          <div class="carousel-caption">
+            <div class="img_thumb">
+              <img class="img-fluid animate__animated animate__fadeInUp" src="./img/02-3.jpg" alt="">
+            </div>
+            <h5 class="animate__animated animate__fadeInUp animate__delay-1s">Sáng tạo. Đổi mới.</h5>
+            <p class="animate__animated animate__fadeInUp animate__delay-2s">Kiến trúc tạo dựng tương lai.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overlay"></div>
+          <div class="carousel-caption">
+            <div class="img_thumb">
+              <img class="img-fluid animate__animated animate__fadeInUp" src="./img/03-3.jpg" alt="">
+            </div>
+            <h5 class="animate__animated animate__fadeInUp animate__delay-1s">Sáng tạo. Đổi mới.</h5>
+            <p class="animate__animated animate__fadeInUp animate__delay-2s">Kiến trúc tạo dựng tương lai.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project -->
+    <section id="project" class="container py-5">
+      <!-- Title -->
+      <div class="container py-5">
+        <div class="title text-center mx-auto">
+          <h2>Chào mừng đến với New Brick</h2>
+          <p class="my-3">
+            Nền tảng cập nhật những xu hướng và sáng tạo kiến trúc mới nhất. Chúng tôi mang đến những giải pháp đột phá, giúp các công trình không chỉ đẹp mà còn bền vững và phù hợp với tương lai.
+          </p>
+        </div>
+
+      <!-- Project Content -->
+      <div class="project__content pt-3">
+        <!-- Nav pills -->
+        <ul class="nav nav-pills justify-content-center mb-4">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="pill" href="#home">Tất cả</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#menu1">Hiện đại</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#menu2">Cổ điển</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#menu3">Postmodern</a>
+          </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div class="tab-pane container active" id="home">
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="card animate__animated animate__zoomIn">
+                  <img class="card-img-top" src="img/hien dai 1.jpg" alt="">
+                  <div class="card-body">
+                    <h3 class="card-title h5">Restaurants & Bars, Renovation</h4>
+                    <p class="card-text">Sanya, China</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="card card animate__animated animate__zoomIn">
+                  <img class="card-img-top" src="img/hien dai 2.jpg" alt="">
+                  <div class="card-body">
+                    <h3 class="card-title h5">Research Center, Office Buildings</h4>
+                    <p class="card-text">Joinville, Brazil</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="card card animate__animated animate__zoomIn">
+                  <img class="card-img-top" src="img/hien dai 3.jpg" alt="">
+                  <div class="card-body">
+                    <h3 class="card-title h5">Residential Architecture</h4>
+                    <p class="card-text">Broad Haven, United Kingdom</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="card card animate__animated animate__zoomIn">
+                  <img class="card-img-top" src="img/co dien 1.jpg" alt="">
+                  <div class="card-body">
+                    <h3 class="card-title h5">Houses, Renovation</h4>
+                    <p class="card-text">Portland, United States</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="card card animate__animated animate__zoomIn">
+                  <img class="card-img-top" src="img/co dien 2.jpg" alt="">
+                  <div class="card-body">
+                    <h3 class="card-title h5">Factory</h4>
+                    <p class="card-text">Gödöllő, Hungary</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="card card animate__animated animate__zoomIn">
+                  <img class="card-img-top" src="img/ket hop.jpg" alt="">
+                  <div class="card-body">
+                    <h3 class="card-title h5">Library, High School</h4>
+                    <p class="card-text">Kanagawa, Japan</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane container fade" id="menu1">
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="card card animate__animated animate__zoomIn">
+                  <img class="card-img-top" src="img/hien dai 1.jpg" alt="">
+                  <div class="card-body">
+                    <h3 class="card-title h5">Restaurants & Bars, Renovation</h4>
+                    <p class="card-text">Sanya, China</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="card card animate__animated animate__zoomIn">
+                  <img class="card-img-top" src="img/hien dai 2.jpg" alt="">
+                  <div class="card-body">
+                    <h3 class="card-title h5">Research Center, Office Buildings</h4>
+                    <p class="card-text">Joinville, Brazil</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="card card animate__animated animate__zoomIn">
+                  <img class="card-img-top" src="img/hien dai 3.jpg" alt="">
+                  <div class="card-body">
+                    <h3 class="card-title h5">Residential Architecture</h4>
+                    <p class="card-text">Broad Haven, United Kingdom</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane container fade" id="menu2">
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="card card animate__animated animate__zoomIn">
+                  <img class="card-img-top" src="img/co dien 1.jpg" alt="">
+                  <div class="card-body">
+                    <h3 class="card-title h5">Houses, Renovation</h4>
+                    <p class="card-text">Portland, United States</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="card card animate__animated animate__zoomIn">
+                  <img class="card-img-top" src="img/co dien 2.jpg" alt="">
+                  <div class="card-body">
+                    <h3 class="card-title h5">Factory</h4>
+                    <p class="card-text">Gödöllő, Hungary</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane container fade" id="menu3">
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="card card animate__animated animate__zoomIn">
+                  <img class="card-img-top" src="img/ket hop.jpg" alt="">
+                  <div class="card-body">
+                    <h3 class="card-title h5">Library, High School</h4>
+                    <p class="card-text">Kanagawa, Japan</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Service -->
+    <section id="service">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="service__title text-center text-white">
+          <h2>Dịch vụ</h2>
+          <p class="my-3">
+            Tại New Brick, chúng tôi cung cấp các dịch vụ cho thuê chuyên nghiệp trong lĩnh vực thiết kế, marketing và chụp ảnh, giúp các doanh nghiệp và cá nhân xây dựng hình ảnh thương hiệu mạnh mẽ và thu hút khách hàng.
+          </p>
+        </div>
+        <div class="service__content mt-5 pt-3">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <i class="fa-solid fa-paintbrush"></i>
+                  <h4 class="card-title">Thiết kế</h4>
+                  <p class="card-text">
+                    Cung cấp các giải pháp thiết kế đa dạng, từ thiết kế kiến trúc, nội thất đến đồ họa và nhận diện thương hiệu. Các dự án thiết kế của New Brick luôn chú trọng đến tính sáng tạo, tính thẩm mỹ và phù hợp với nhu cầu thực tế của khách hàng.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <i class="fa-solid fa-shekel-sign"></i>
+                  <h4 class="card-title">Marketing</h4>
+                  <p class="card-text">
+                    Cung cấp dịch vụ marketing toàn diện, bao gồm xây dựng chiến lược marketing, quảng bá thương hiệu và tối ưu hóa chiến lược truyền thông trên các nền tảng số.Giúp các doanh nghiệp phát triển và duy trì mối quan hệ lâu dài với khách hàng.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <i class="fa-solid fa-camera"></i>
+                  <h4 class="card-title">Chụp ảnh</h4>
+                  <p class="card-text">
+                    Cung cấp dịch vụ chụp ảnh chuyên nghiệp với đội ngũ nhiếp ảnh gia giàu kinh nghiệm, cam kết mang đến những bức ảnh sắc nét, chất lượng cao, giúp khách hàng truyền tải thông điệp và tạo ấn tượng mạnh mẽ với đối tác và khách hàng.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Edu -->
+    <section id="edu">
+      <div class="bg"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="card">
+              <div class="card-body">
+                <h2 class="card-title">Thành tựu và giải thưởng</h2>
+                <p class="card-text my-3">
+                  Hoàn thành hàng trăm dự án thiết kế và marketing cho các công trình nổi bật, giúp khách hàng xây dựng được những thương hiệu vững mạnh và ấn tượng. Những công trình do New Brick thực hiện đã nhận được sự công nhận trong các giải thưởng ngành kiến trúc và thiết kế, khẳng định chất lượng và sự chuyên nghiệp.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="edu__right">
+              <p>
+                Chúng tôi vinh dự nhận được nhiều giải thưởng danh giá trong các lĩnh vực thiết kế, sáng tạo và truyền thông, chứng minh cam kết của New Brick trong việc mang đến những sản phẩm và dịch vụ xuất sắc. Các giải thưởng này là động lực để chúng tôi không ngừng nỗ lực và đổi mới, mang đến những giá trị ngày càng cao cho khách hàng.
+              </p>
+              <div class="row">
+                <div class="col">
+                  <img class="img-fluid" src="./img/award-1.png" alt="">
+                </div>
+                <div class="col">
+                  <img class="img-fluid" src="./img/award-2.png" alt="">
+                </div>
+                <div class="col">
+                  <img class="img-fluid" src="./img/award-3.png" alt="">
+                </div>
+                <div class="col">
+                  <img class="img-fluid" src="./img/award-4.png" alt="">
+                </div>
+                <div class="col">
+                  <img class="img-fluid" src="./img/award-5.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer" class="py-5">
+      <div class="container">
+        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        <hr>
+        <p>© 2024 New Brick. All rights reserved | Designed by New Brick</p>
+      </div>
+    </section>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
